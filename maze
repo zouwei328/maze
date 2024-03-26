@@ -1,0 +1,73 @@
+<! DOCTYPE html>
+<html>
+    <head>
+    <title>visitpage.html</title>
+        <link rel="stylesheet" type="text/css" href="cssvisitpage.css">
+    </head>
+    <header class="head" style="background-color:Gray;">
+        <img src="logo.png" width="400" height="100">
+        <h1 class="header">Hong Kong Industrial University</h1>
+    </header>
+<nav>
+    <ul>
+        <li class="link"><a style="color: White;" href="homepage.html">Home</a></li>
+        <li class="link"><a style="color: White;"href="aboutpage.html">About</a></li>
+        <li class="link"><a style="color: White;"href="applypage.html">Apply</a></li>
+        <li class="link"><a style="color: White;"href="visitpage.html">Visit</a></li>
+        <li class="link"><a style="color: White;"href="programpage.html">Program</a></li>
+        <li class="link"><a style="color: White;"href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<body>
+    <p>We warmly welcome you to visit us at our Kowloon campus and experience our
+        vibrant learning community. Our campus is located in the Hong Kong Kowloon
+        High-Tech Park, where we collaborate closely with institutes of the
+        Chinese Academy of Sciences.</p>
+
+        <p>During your visit, you can explore our world-class facilities, including
+            the Protein Folding Science Center, Hong Kong Advanced Computing
+            Equipment, Hong Kong Ultrafast Laser Facility, Hong Kong Electron-Positron
+            Collider, and Hong Kong Supercomputer Facility. These facilities are
+            available to our faculty, students, and researchers worldwide.</p>
+
+            <p>You will also have the chance to meet our renowned scholars and experts
+                from home and abroad committed to providing students with cutting-edge
+                knowledge and skills in their respective fields. Our faculty members are
+                recognized leaders in their fields, and their research has been published
+                in prestigious journals such as Cell, Nature, and Science.</p>
+
+                <p>
+                We hope you will come and visit us soon to experience firsthand the
+                dynamic and innovative community at Hong Kong Industrial University.</p>
+
+                <h2>location</h2>
+
+                <p>Tel: (852) 1234 5678</p>
+                <p>Fax: (852) 8765 4321</p>
+                <p>Email: visit@hkiu.edu.hk</p>
+            
+                <fieldset>
+                    <legend>Booking Information</legend>
+                    <form>
+                        <label for="visitdate">Date</label><br>
+                        <input type="date"></input>
+                        <label for="visittime">Time</label><br>
+                            <select id="visittime">
+                                <option value="9:00-11:00">9:00-11:00</option>
+                                <option value="11:00-1:00">11:00-1:00</option>
+                                <option value="1:00-3:00">1:00-3:00</option>
+                                <option value="3:00-5:00">3:00-5:00</option>
+                                <option value="5:00-7:00">5:00-7:00</option>
+                            </select><br>
+                        <label for="number of visitors">number of visitors</label><br>
+                        <input type="number"></input>
+                        <button>Check availability</button>
+                    
+                    </form>
+                </fieldset>
+                <footer class="footer" style="background-color:LightGray;">
+                    <img class="image" src="footer_logo.png"><br>
+                    "@CityU 2023 – sources of images and text from Wikipedia and Courtesy of Icon pack by Icons8 – designed by <a href="designpage.html">Sit Ho Wang</a>"
+                </footer>
+            </body>
+        </html>
